@@ -1,37 +1,45 @@
-/* Estilo para o corpo da página */
+/* O <body> define o fundo de toda a página e a fonte */
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f7f6;
-    color: #333;
-    padding: 20px;
+    background-color: #f4f7f6; /* Cinza bem claro, relaxante */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333333; /* Texto cinza escuro (melhor leitura que preto puro) */
+    margin: 0;
+    padding: 0;
 }
 
-/* Estilo para as caixas (divs) do blog */
-div {
-    background-color: #ffffff;
-    padding: 20px;
-    margin-bottom: 20px;
-    border-radius: 8px;
-    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-}
-
-/* Estilo para o título principal */
+/* O <h1> ganha uma cor de destaque e centralização */
 h1 {
-    color: #2c7a7b;
+    background-color: #4a7c59; /* Verde que remete à calma/empatia */
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+    margin-top: 0;
 }
 
-/* Estilo para os parágrafos */
+/* A <div> funciona como um contêiner para o nosso post */
+.post-container {
+    background-color: white; /* Caixa branca para o conteúdo */
+    max-width: 600px; /* Limita a largura para não espalhar demais */
+    margin: 30px auto; /* Centraliza a div na tela */
+    padding: 25px;
+    border-radius: 8px; /* Bordas arredondadas suaves */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05); /* Sombra leve ao redor */
+}
+
+/* Estilizando os parágrafos <p> */
 p {
-    line-height: 1.6;
+    line-height: 1.6; /* Aumenta o espaçamento entre as linhas */
+    font-size: 1.1rem;
 }
 
-/* Estilo para a lista */
+/* Estilizando a lista <ul> e os itens <li> */
 ul {
-    list-style-type: square;
-    padding-left: 20px;
+    background-color: #e9f5ed; /* Fundo verde bem clarinho para destacar a lista */
+    padding: 20px 40px;
+    border-radius: 6px;
 }
 
 li {
-    margin-bottom: 8px;
-    color: #4a5568;
+    margin-bottom: 10px; /* Afasta um item do outro */
+    font-weight: 500;
 }
