@@ -1,15 +1,15 @@
 /* O <body> define o fundo de toda a página e a fonte */
 body {
-    background-color: #f4f7f6; /* Cinza bem claro, relaxante */
+    background-color: #fcf4f6; /* Rosa pastel super suave para o fundo */
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: #333333; /* Texto cinza escuro (melhor leitura que preto puro) */
+    color: #4a3b40; /* Marrom escuro levemente rosado (muito mais suave que o preto) */
     margin: 0;
     padding: 0;
 }
 
 /* O <h1> ganha uma cor de destaque e centralização */
 h1 {
-    background-color: #4a7c59; /* Verde que remete à calma/empatia */
+    background-color: #d87093; /* Rosa elegante (Pale Violet Red) como destaque principial */
     color: white;
     text-align: center;
     padding: 40px 20px;
@@ -18,12 +18,12 @@ h1 {
 
 /* A <div> funciona como um contêiner para o nosso post */
 .post-container {
-    background-color: white; /* Caixa branca para o conteúdo */
+    background-color: #ffffff; /* Caixa branca para manter o contraste perfeito */
     max-width: 600px; /* Limita a largura para não espalhar demais */
     margin: 30px auto; /* Centraliza a div na tela */
     padding: 25px;
     border-radius: 8px; /* Bordas arredondadas suaves */
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05); /* Sombra leve ao redor */
+    box-shadow: 0 4px 10px rgba(216, 112, 147, 0.12); /* Sombra suave levemente rosada */
 }
 
 /* Estilizando os parágrafos <p> */
@@ -34,7 +34,7 @@ p {
 
 /* Estilizando a lista <ul> e os itens <li> */
 ul {
-    background-color: #e9f5ed; /* Fundo verde bem clarinho para destacar a lista */
+    background-color: #fce4ec; /* Fundo rosa bem clarinho e delicado para destacar a lista */
     padding: 20px 40px;
     border-radius: 6px;
 }
